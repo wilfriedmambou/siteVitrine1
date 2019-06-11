@@ -1,3 +1,7 @@
+:root {
+    --main-bg-color: red;
+  }
+  
 body,html{
     padding: 0px;
     margin: 0;
@@ -25,7 +29,7 @@ a,a:hover {
 
 /*header*/
 .header {
-    background-color: #3498DB;
+    background-color:var(--main-bg-color);
     height: 70px;
     line-height: 70px;
 }
@@ -72,7 +76,7 @@ color: #fff;
     
 }
 .inner-banner .btn-custom {
-    background-color: #3498DB;
+    background-color:var(--main-bg-color);
     color: #fff;
 }
 .inner-banner .btn-custom:hover{
@@ -97,7 +101,7 @@ color: #fff;
     width: 5%;
     border:none;
     box-shadow: none;
-    background-color: #3498DB; 
+    background-color:var(--main-bg-color);
 }
 
 .portfolio {
@@ -146,7 +150,7 @@ img:hover {
  
 }
 .btn-primary  {
-    background-color:   #3498DB;
+    background-color:var(--main-bg-color);
 }
 .btn-primary:hover{
    background-color:  #2C3E50; 
