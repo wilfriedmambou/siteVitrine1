@@ -98,7 +98,7 @@ color: #fff;
 /*portfolio*/
 .separator{
     height: 3px;
-    width: 5%;
+    width: 20%;
     border:none;
     box-shadow: none;
     background-color:var(--main-bg-color);
