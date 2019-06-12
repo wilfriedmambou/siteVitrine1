@@ -50,7 +50,7 @@ a{
   letter-spacing: 1px;
   float: left;
 } */
-.menu #myNavbar{
+.menu {
   float: right;
 }
 .menu  #myNavbar>div >ul >li > a {
@@ -212,6 +212,9 @@ text-shadow: 1px 1px 20px #000000;
             margin-top: -250px;
     }
     
+ }
+ .social{
+     align-items: center;
  }
 
 
