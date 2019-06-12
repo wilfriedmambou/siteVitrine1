@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: rgba(199, 12, 174, 0.705);
+  --second-bg-color:#674869
 }
 
 body,
@@ -87,11 +88,12 @@ a{
 .inner-banner .btn-custom {
   background-color: var(--main-bg-color);
   color: #fff;
-  width: 150px;
+  width: 30%;
+
   margin: 0 auto;
 }
 .inner-banner .btn-custom:hover {
-  background-color: #2c3e50;
+  background-color: var(--second-bg-color);
 }
 /*about*/
 .about article h2 {
@@ -158,7 +160,8 @@ a{
   border: var(--main-bg-color);
 }
 .btn-primary:hover {
-  background-color: #2c3e50;
+  background-color: var(--second-bg-color);
+
 }
 .competence{
 color: #fff;
@@ -215,6 +218,9 @@ text-shadow: 1px 1px 20px #000000;
  }
  .social{
      align-items: center;
+ }
+ .optMenu :hover{
+     background-color:var(--second-bg-color);
  }
 
 
