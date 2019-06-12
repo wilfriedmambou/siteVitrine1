@@ -21,6 +21,9 @@ a,
 a:hover {
   text-decoration: none;
 }
+a{
+    text-decoration:ffffff;
+}
 
 .container-fluid {
   padding: 0;
@@ -28,27 +31,34 @@ a:hover {
 }
 
 /*header*/
-.header {
+/* .header {
   background-color: var(--main-bg-color);
   height: 70px;
   line-height: 70px;
+} */
+.navbar{
+    background-color: var(--main-bg-color); 
+    /* border: none; */
+    color:ffff; 
+    height: 70px;
+  line-height: 70px;
 }
 
-.logo {
+/* .logo {
   color: #ffffff;
   font-weight: bold;
   letter-spacing: 1px;
   float: left;
-}
+} */
 .menu {
   float: right;
 }
-.menu a {
-  color: #fff;
+.menu >div >ul >li > a {
+  color: #ffffff;
   margin-right: 20px;
 }
-.menu a:hover {
-  color: #2c3e50;
+.menu >div >ul >li > a:hover {
+  color: #ffffff;
 }
 /*banniere*/
 .banner {
@@ -77,6 +87,8 @@ a:hover {
 .inner-banner .btn-custom {
   background-color: var(--main-bg-color);
   color: #fff;
+  width: 150px;
+  margin: 0 auto;
 }
 .inner-banner .btn-custom:hover {
   background-color: #2c3e50;
@@ -155,6 +167,53 @@ text-align: center;
 font-size: 35px;
 text-shadow: 1px 1px 20px #000000;
 }
+@media (min-width: 320px) and (max-width: 800.98px) {
+    .infoPerso{
+        font-size:15px; 
+        height: 15%;
+text-align: center;
+/* font-size: 35px; */
+text-shadow: 1px 1px 20px #000000;   
+    }
+    
+    .inner-banner{
+            margin-top: -160px;
+    }
+    .inner-banner .btn-custom {
+        display: none;
+        }
+ }
+ /* for samsung s5 */
+
+ @media (min-width: 1024px) and (max-width: 1366.98px) {
+    .infoPerso{
+        font-size:35px; 
+        height: 15%;
+text-align: center;
+/* font-size: 35px; */
+text-shadow: 1px 1px 20px #000000;   
+    }
+    
+    .inner-banner{
+            margin-top: -170px;
+    }
+   
+ }
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .infoPerso{
+        font-size:25px; 
+        height: 15%;
+text-align: center;
+/* font-size: 35px; */
+text-shadow: 1px 1px 20px #000000;   
+    }
+    
+    .inner-banner{
+            margin-top: -250px;
+    }
+    
+ }
+
 
 /* .thumbnail img {
   transition: all 0.3s ease 0s;

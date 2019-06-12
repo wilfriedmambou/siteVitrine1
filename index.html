@@ -2,11 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <link href="css/style.css" rel="stylesheet" />
+    <script
+      data-require="jquery@*"
+      data-semver="2.1.3"
+      src="https://code.jquery.com/jquery-2.1.3.min.js"
+    ></script>
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/icon.css" />
+    <script
+      data-require="bootstrap@*"
+      data-semver="3.3.1"
+      src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"
+    ></script>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,23 +34,39 @@
     />
     <meta name="author" content="Stratis BAKAS" />
   </head>
-  <body>
+  <body>  
     <!--header -->
 
-    <header class="container-fluid header navbar-fixed-top  ">
-      <div class="container">
-        <a href="#" class="logo">PORTFOLIO W.M 🥂 </a>
-        <nav class="menu">
-          <a href="#">Accueil</a>
-          <a href="#about">A propos </a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-      <select id="selectColor">
-        <option value="red">rouge</option>
-        <option value="blue" selected>bleu</option>
-      </select>
+    <header class="header navbar-fixed-top  ">
+      <!-- <div class="container"> -->
+
+          <nav class="navbar  navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target="#myNavbar"
+                  >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><code>if(everyday)? 🙂: 🙂  W.M</code> </a>
+                </div>
+                <div class="collapse navbar-collapse  menu" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class=""><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Cotacts</a></li>
+                    <li><a href="#about">A propos</a></li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </nav>
+      <!-- </div> -->
     </header>
 
     <!--      fin header -->
@@ -46,15 +75,19 @@
       <div class="ban">
         <img src="img/ban.jpg" alt="baniere du site " />
       </div>
-      <div class="inner-banner">
-        <h1>Bienvenue  moi c'est Wilfried Mambou </h1>
+      <div class="inner-banner col-xl-2">
+        <h1 class="infoPerso">
+          <code> Bienvenue moi c'est Wilfried Mambou ...🔥🔥🔥 </code>
+        </h1>
         <ul class="competence">
-          <li class=""><code>fullstack developpeur 💻 🌠 👑 </code></li>
-          <li class=""><code> React Js </code></li>
-          <li class=""><code> NodesJs</code></li>
-          <li><code> laravel </code></li>
-          <li><code>Bootstrap</code></li>
-          <li><code>Odoo</code></li>
+          <li class="infoPerso">
+            <code>fullstack developpeur 💻 🌠 👑 </code>
+          </li>
+          <li class="infoPerso"><code> React Js </code></li>
+          <li class="infoPerso"><code> NodesJs</code></li>
+          <li class="infoPerso"><code> laravel </code></li>
+          <li class="infoPerso"><code>Bootstrap</code></li>
+          <li class="infoPerso"><code>Odoo</code></li>
         </ul>
         <button href="#caontact" class="btn btn-custom">Contactez moi</button>
       </div>
@@ -276,11 +309,21 @@
           Copyrigt (c) 2019 Copyright Wilfried Mambou All Rights Reserved.
         </p>
       </div>
-    </footer>
-    <!--      fin footer -->
 
-    <script src="bootstrap/js/jquery.js"></script>
-    <script src="js/bouton.js"></script>
-    <script src="test.js"></script>
+     
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
