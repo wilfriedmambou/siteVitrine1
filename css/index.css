@@ -16,8 +16,8 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
+  margin-top:70px;
 }
-
 a,
 a:hover {
   text-decoration: none;
@@ -25,12 +25,10 @@ a:hover {
 a{
     text-decoration:ffffff;
 }
-
 .container-fluid {
   padding: 0;
   margin: 0;
 }
-
 /*header*/
 /* .header {
   background-color: var(--main-bg-color);
